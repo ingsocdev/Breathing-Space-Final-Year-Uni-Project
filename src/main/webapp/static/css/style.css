@@ -1,0 +1,63 @@
+/* Vertically aligns the content to the center of the flexbox. */
+.vertical-center {
+	min-height: 100%;
+	/* Needed as a fall-back for browsers that do not support unit vh. */
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.btn-margin-left {
+	margin-left: 4px;
+}
+
+.btn-margin-right {
+	margin-right: 4px;
+}
+
+.btn-margin-top {
+	margin-top: 4px;
+}
+
+.btn-margin-bottom {
+	margin-top: 4px;
+}
+
+/* Horizontally aligns the content to the center of the flexbox. */
+.horizontal-center {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-align-content: space-between;
+	align-content: space-between;
+}
+
+.progress {
+	text-align: center;
+}
+
+.fixed-height-panel {
+	min-height: 150px;
+	max-height: 150px;
+	overflow-y: scroll;	
+}
+
+.note {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 22.5%;
+	display: inline-block;
+}
+
+#error-box {
+	margin-top: 10px;
+}
+
+body {
+	background-color: #8fe8aa;
+}
